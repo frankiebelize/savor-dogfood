@@ -71,3 +71,32 @@ header {
     transform: rotate(5deg)skewY(3deg); 
   }
   
+  nav ul{
+    align-items: center;
+    gap: 2rem;
+    display: flex;
+    list-style: none;
+  }
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--clr-white);
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease;
+}
+
+nav ul li a:hover{
+    transform: scale(1.2);
+    color: var(--clr-pink);
+}
+
+nav ul li{
+    transition: transform 0.3s ease;
+}
+
+nav ul li:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: var(--clr-pink);
+}
