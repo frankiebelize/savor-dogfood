@@ -100,3 +100,46 @@ nav ul li:hover{
     cursor: pointer;
     color: var(--clr-pink);
 }
+
+/* Hero Section */
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2%;
+    color: white;
+    gap: 2rem;
+}
+
+.col-1 {
+    flex: 1;
+    padding-right: 2rem;
+    margin-top: -5%;  /* to make text higher */
+}
+
+.col-1 h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.col-1 p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.col-2 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.col-2 img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  margin-right: -20%;
+}
